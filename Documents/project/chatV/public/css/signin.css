@@ -1,0 +1,106 @@
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.page-transition {
+  animation: fadeOut 0.5s ease-out forwards;
+}
+
+.page-enter {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-content: center;
+  justify-content: center;
+}
+
+.img{
+  margin: 5% auto 3% auto;
+}
+
+
+#custom-alert{
+  width: 42%;
+  margin: auto 29% auto 29%;
+}
+
+.fade.show{
+  opacity: 1;
+}
+
+.checkbox {
+  font-weight: 400;
+  margin: 3.5% 0 0 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+
+.form-control{
+  margin: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#custom-alert {
+  top: 10px;
+  position: fixed;
+}
+
+#box{
+  padding: 20px;
+  border-radius:5px;
+  border-top: 10px solid #d7dace;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+  background-color: #f9f9f9;
+  width: 100%;
+  max-width: 500px;
+  height: 80vh;
+  max-height: 1000px;
+  /*padding: 15px;*/
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-block{
+  margin: 2%;
+  border: 0.5px solid #d7dace;
+  border-radius: .25rem;
+
+}
+
+/*noinspection CssInvalidPropertyValue*/
+.inoutGroup{
+  display: flex;
+  width: -webkit-fill-available;
+}
+
+#btnLogin{
+  background-color: #f0efeb;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(7, 59, 76, 0.68);
+}
+
+#btnSignUp{
+  background-color: #f0efeb;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(7, 59, 76, 0.68);
+}
+
+#btngoogle{
+  background-color: #f8f7ff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(147, 129, 255, 0.68);
+}

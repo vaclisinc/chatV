@@ -1,0 +1,57 @@
+# Compiled JavaScript files
+public/js/*.bundle.js
+public/js/*.bundle.js.map
+
+# Firebase files
+firebase.json
+.firebaserc
+database-debug.log
+database.rules.json
+
+# Logs
+*.log
+
+# Dependencies
+/node_modules
+
+# Environment variables
+.env
+
+# IDE files
+.vscode
+.idea
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debug files
+database-debug.log
+
+# Build output
+/build
+/dist
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Keep source files
+!public/js/index.js
+!public/js/offcanvas.js
+!public/js/profile.js
+!public/js/signin.js
+
+# Keep configuration files
+!package.json
+!storage.rules
+
+# Keep documentation
+!README.md
+!LICENSE.md
+
+# Keep static assets
+!public/css
+!public/img
+!preview.jpg
+!demo.gif

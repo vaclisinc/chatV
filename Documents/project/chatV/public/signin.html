@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Login.</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous">
+    <link href="css/signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <div class="centerContainer">
+     <div id="custom-alert"></div>
+    </div>
+    <div id="box">
+      <img src="img/icon.png" class="img" height="200">
+      <label for="inputEmail" class="sr-only" >Email address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <div class="inoutGroup">
+        <button class="btn btn-lg btn-primary btn-block" id="btnLogin">Sign in</button>
+        <button class="btn btn-lg btn-secondary btn-block" id="btnSignUp">Sign up</button>
+      </div>
+      <button class="btn btn-lg btn-info btn-block" id="btngoogle">Sign in with Google</button>
+    </div>
+    <script src="./js/signin.bundle.js"></script>
+  </body>
+
+</html>
