@@ -2,9 +2,8 @@
 
 [ChatV](https://chatv-vaclis.web.app/) is a real-time chatroom application that allows users to communicate in public and private rooms. It's built with modern web technologies and Firebase for real-time database and authentication. This project was developed as part of the Software Studio 2024 Spring course.
 
-[![Demo GIF](https://raw.githubusercontent.com/vaclisinc/chatV/9ec8a4c7bcebd2eee8e3f1c2400ea85cb876d578/preview.jpg)](https://youtu.be/36w4gmY6Cdo)
+[![Demo GIF](https://raw.githubusercontent.com/vaclisinc/chatV/d0185e282d6d0a8868f6436381871c4548f29ca1/preview.jpg)](https://youtu.be/36w4gmY6Cdo)
 *Click on the picture to see demo video*
-
 
 ## Usage
 
