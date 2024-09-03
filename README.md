@@ -24,7 +24,7 @@
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/chatv.git
+   git clone https://github.com/vaclisinc/chatv.git
    cd chatv
    ```
 
